@@ -22,6 +22,28 @@ namespace OlioOhjelmointi
 
             Console.WriteLine("My drink is " + cocacola.Brand + ", it has " + cocacola.Flavor + " flavor and it's a " + cocacola.Qty + " bottle.");
             Console.WriteLine("I smoke " + west.Type + " " + west.Brand + " and I usually buy a pack that has " + west.Pack + " cigarettes in it.");
+
+            
+
+            CarClass car = new(200)
+            {
+                
+            };
+
+            car.Acc();
+            car.Acc();
+            car.Acc();
+            car.Acc();
+            car.Acc();
+            car.Acc();
+            car.Acc();
+
+            Console.WriteLine("My car's speed now is " + car.Speed + " km/h");
+
+            Sportscar sc = new(350)
+            {
+                NoRoof = true
+            };
         }
     }
 }
