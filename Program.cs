@@ -15,6 +15,9 @@ namespace OlioOhjelmointi
             west.Brand = "West";
             west.Type = "Red";
             west.Pack = "20";
+
+            Console.WriteLine("My drink is " + cocacola.Brand + ", it has " + cocacola.Flavor + " flavor and it's a " + cocacola.Qty + " bottle.");
+            Console.WriteLine("I smoke " + west.Type + " " + west.Brand + " and I usually buy a pack that has " + west.Pack + " cigarettes in it.");
         }
     }
 }
